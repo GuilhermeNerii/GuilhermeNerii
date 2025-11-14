@@ -1,5 +1,9 @@
 name: Generate snake game
 
+# PERMISSÕES NECESSÁRIAS
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 */12 * * *"
